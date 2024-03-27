@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+}
+html {
+    font-size: 20px;
+    font-family: "Roboto";
+}
+header {
+    height: 120px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #284F55;
+    border-bottom: 1px solid white;
+}
+.logo {
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+#dmd {
+    color: #f7a40a;
+    font-size: 3rem;
+    padding-right: 0.5rem;
+}
+nav {
+    margin-right: 20px;
+}
+.button {
+    color: black;
+    background-color: #f7a40a;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+.button:hover {
+    background-color: limegreen;
+    transition-duration: 0s;
+}
+.slogan {
+    padding-top: 121px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-image: url(./pictures/London.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#slogan-size {
+    height: 100px;
+    background-color: #284F55;
+    align-items: center;
+    width: 100%;
+}
+.slogan-page {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    color: #FFFFFF;
+}
+#h2 {
+    height: 50px;
+    width: 100%;
+    background-color: #284F55;
+    color: white;
+    padding-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    padding: 0 2rem;
+}
+.description {
+    height: auto;
+    width: fit-content;
+    display: flex;
+    padding: 2rem;
+}
+.services {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery {
+    padding: 2rem;
+    width: 300px;
+}
+footer {
+    background-color: #284F55;
+    height: 1.5em;
+    color: #FFFFFF;
+    font-size: 0.75em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+.letter {
+    color: #f7a40a;
+    padding-left: 0.5rem;
+}
+@media (max-width: 450px) {
+    .slogan-page {
+        width: 100%;
+        height: auto;
+        font-size: large;
+        justify-content: center;
+    }
+}
+@media (max-width: 450px) {
+    #slogan-h3 {
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    .slogan {
+        height: 160px;
+        background-size: 100%;
+    }
+}
+@media (max-width: 450px) {
+    #slogan-size {
+        height: 40px;
+    }
+}
+@media (max-width: 450px) {
+    #dmd {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 450px) {
+    header {
+        height: auto;
+        display: inline-block;
+    }
+}
+@media (max-width: 450px) {
+    .logo {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+@media (max-width: 450px) {
+    .button {
+        font-size: 0.5rem;
+        display: flex;
+    }
+}
+@media (max-width: 450px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+
+    }
+}
+@media (max-width: 450px) {
+    .services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width: 450px) {
+    footer {
+        font-size: 1rem;
+        display: flex;
+    }
+}
